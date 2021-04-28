@@ -276,7 +276,7 @@ body {
   width: 209px;
   height: 44px;
   border-radius: 22px;
-  background-color: #000;
+  background-color: #e66c34;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -295,19 +295,19 @@ body {
 .buttons-list__item:hover, .buttons-list__item:focus {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  background-color: #e66c34;
+  background-color: #113bc5;
 }
 
 .buttons-list__link {
   padding: 12px 65px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #e66c34;
+  color: #000;
 }
 
 .buttons-list__item:hover .buttons-list__link,
 .buttons-list__item:focus .buttons-list__link {
-  color: #000;
+  color: #e66c34;
 }
 
 .our-space {

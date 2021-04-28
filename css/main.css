@@ -131,6 +131,7 @@ body {
 
 .team-name {
   font-weight: 900;
+  text-shadow: 1px 2px 1px #FA6414;
 }
 
 .team-name,
@@ -182,7 +183,7 @@ body {
 .leader-list__position,
 .name-of-people {
   text-transform: uppercase;
-  color: var(--recipe-text-color);
+  color: #000;
 }
 
 .name-of-people {
@@ -275,7 +276,7 @@ body {
   width: 209px;
   height: 44px;
   border-radius: 22px;
-  background-color: #6b27da;
+  background-color: #000;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -306,7 +307,7 @@ body {
 
 .buttons-list__item:hover .buttons-list__link,
 .buttons-list__item:focus .buttons-list__link {
-  color: #6b27da;
+  color: #000;
 }
 
 .our-space {
@@ -594,8 +595,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  margin-bottom: 50px;
 }
 
 .technology__item:not(:last-child) {

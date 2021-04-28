@@ -125,15 +125,13 @@
     align-items: center;
     // justify-content: center;
     flex-direction: column;
-    justify-content: space-around;
-    
+    margin-bottom: 50px;  
 
-    &__item:not(:last-child) {
+    &__item:not(:last-child){
         margin-bottom: 15px;
     }
-    
+       
     &__text{
-    
         font-weight: 700;
         font-size: 16px;
         line-height: 1.19;

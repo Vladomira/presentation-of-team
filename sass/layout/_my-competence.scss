@@ -1,35 +1,132 @@
+.my-competence,
+.technology-section  {
+    background-color: rgb(245, 192, 132);
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.tech-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
 .we-made,
-.name-of-section,
-.section-list {
+.name-of-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
-// .we-made__item,
-// .name-of-section__item,
-// .section-list__item {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     width: 200px;
-//     height: 200px;
-//     margin-left: 30px;
-//     margin-top: 50px;
-// }
-// .section-list{
-//     &__item {
-//         width: 200px;
-//         height: 200px;
-//     }
-//     &__icon {
-//     width: 200px;
-//     height: 200px;
-// }
-// }
+.we-made__item,
+.name-of-section__item,
+.section-list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 50px;
 
-// .tech-container{
-//     display: flex;
-//     align-items: center;
-//     flex-wrap: wrap;
+}
+.we-made__item,
+.section-list__item {
+    transform: scale(1);
+    box-shadow: -1px 12px 8px 4px rgba(34, 60, 80, 0.2);
+    transition: transform var(--main-animation);
+}
+.we-made__item:hover,
+.section-list__item:hover,
+.we-made__item:focus,
+.section-list__item:focus {
+    transform: scale(1.1);
+}
+.we-made__item,
+.name-of-section__item {
+    width: 200px;
+    height: 200px;
+}
+.name-of-section__text {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.19;
+    color: rgb(92, 1, 167);
+}
 
-// }
+.section-list{
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    flex-direction: column;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // width: 200px;
+        height: 200px;
+    }
+
+    &__icon--header {
+        width: 400px;
+        height: 180px;
+            }
+    &__icon--products {
+        width: 300px;
+        // height: 200px;
+        
+        } 
+    &__icon--about {
+        width: 400px;
+        height: 180px;
+            }
+    &__icon--advantages {
+        width: 500px;
+        height: 200px;
+                
+    } 
+    &__icon--gallery {
+        width: 500px;
+        height: 200px;
+                
+    }
+    &__icon--customer-reviews{
+        width: 500px;
+        height: 200px;
+    }
+    &__icon--contacts{
+        width: 400px;
+        // height: 200px;
+    }
+    &__icon--footer{
+        width:  500px;
+        height: 200px;
+    }
+    
+}
+
+
+.technology-section {
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(248, 219, 186);
+
+    &__item:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    &__text{
+    
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.19;
+        
+       
+    }
+}
+
+

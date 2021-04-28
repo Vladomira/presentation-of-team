@@ -14,8 +14,7 @@
 }
 
 .code-club-section,
-.our-space-section,
-.my-competence {
+.our-space-section {
     background-color: rgb(245, 192, 132);
     padding-top: 50px;
     padding-bottom: 200px;
@@ -121,7 +120,8 @@
     width: 209px;
     height: 44px;
     border-radius: 22px;
-    background-color: rgb(17, 59, 197);
+    background-color:rgb(107, 39, 218);
+    // background-color: rgb(17, 59, 197);
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -148,7 +148,8 @@
         
         .buttons-list__item:hover &,
         .buttons-list__item:focus & {
-            color: rgb(17, 59, 197);
+            // color: rgb(17, 59, 197);
+            color:rgb(107, 39, 218);
         }
     }
 }

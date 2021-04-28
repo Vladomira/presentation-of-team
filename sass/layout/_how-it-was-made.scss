@@ -1,22 +1,33 @@
 .our-space {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    // justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 100px;
     margin-top: -30px;
+    margin-left: -30px;
 
     &__zoom {
-        width: 400px;
-        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // width: 400px;
+        flex-basis: calc(100% / 2 - 30px);
         margin-top: 30px;
-        box-shadow: -1px 12px 8px 4px rgba(34, 60, 80, 0.2);
-        
+        margin-left: 30px;
+
+        transform: scale(1);
+        transition: transform var(--main-animation);
+
+        &:hover,
+        &:focus {
+            transform: scale(1.1);
+        }
     }
 
     &__icon {
+        box-shadow: -1px 12px 8px 4px rgba(34, 60, 80, 0.2);
         width: 400px;
-        height: 200px;
     }
 }
 .our-massanger {
@@ -25,7 +36,7 @@
     justify-content: center;
     margin-top: -20px;
     margin-left: -20px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 
     &__label {
         margin-bottom: 10px;
@@ -43,7 +54,6 @@
         margin-left: 20px;
 
         transform: scale(1);
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         transition: transform var(--main-animation);
 
         &:hover,
@@ -52,6 +62,7 @@
         }
     }
     &__icon {
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         width: 280px;
     }
 }

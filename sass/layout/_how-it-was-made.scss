@@ -1,0 +1,57 @@
+.our-space {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    margin-top: -30px;
+
+    &__zoom {
+        width: 400px;
+        height: 200px;
+        margin-top: 30px;
+        box-shadow: -1px 12px 8px 4px rgba(34, 60, 80, 0.2);
+        
+    }
+
+    &__icon {
+        width: 400px;
+        height: 200px;
+    }
+}
+.our-massanger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-bottom: 30px;
+
+    &__label {
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-weight: 900;
+        color: var(--recipe-text-color);
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 280px;
+        margin-top: 20px;
+        margin-left: 20px;
+
+        transform: scale(1);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        transition: transform var(--main-animation);
+
+        &:hover,
+        &:focus {
+            transform: scale(1.1);
+        }
+    }
+    &__icon {
+        width: 280px;
+    }
+}

@@ -1,0 +1,35 @@
+.we-made,
+.name-of-section,
+.section-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+// .we-made__item,
+// .name-of-section__item,
+// .section-list__item {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     width: 200px;
+//     height: 200px;
+//     margin-left: 30px;
+//     margin-top: 50px;
+// }
+// .section-list{
+//     &__item {
+//         width: 200px;
+//         height: 200px;
+//     }
+//     &__icon {
+//     width: 200px;
+//     height: 200px;
+// }
+// }
+
+// .tech-container{
+//     display: flex;
+//     align-items: center;
+//     flex-wrap: wrap;
+
+// }

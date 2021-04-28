@@ -111,22 +111,33 @@
     justify-content: space-around;
     background-color:  rgb(248, 219, 186);
 
-    &__item:not(:last-child) {
-        margin-bottom: 15px;
-    }
     &__title {
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 30px;
+        color: rgb(230, 108, 52);
+        
     }
+}
+
+.technology {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+    &__item:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    
     &__text{
     
         font-weight: 700;
         font-size: 16px;
         line-height: 1.19;
-        
        
     }
 }
-
 
